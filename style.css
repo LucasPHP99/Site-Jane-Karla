@@ -124,24 +124,78 @@ header:hover {
 
 @media (max-width: 768px) {
     /* Estilos para telas com até 768px de largura */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-menu nav a {
+        margin-left: 100px;
+    }
+
+    .sobre {
+        height: 550px;
+    }
+
     body {
       font-size: 16px;
-    }
-    .container {
-      width: 90%;
+      margin-right: -150px;
     }
 
     .instagram-main{
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+        width= 100px;
+        height= 100px;
     }
     
-    .youtube-main{
+    #youtube-main{
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         margin-bottom: 50px;
     }
+
+    /*footer */
+    .final-site{
+        min-height: 27vh;
+        background-color: black;
+        color: #fff;
+        height: 150px;
+    }
+    
+    .final-site h1{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo-container{
+        display: flex;
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+        gap: 10px; /* Espaçamento entre os ícones */
+    }
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+    }
+    
+    .copyr{
+        display: flex;
+        background-color: black;
+        color: white;
+        width: 100%;
+        font-weight: 200;
+        font-size: 1.1rem;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
   }
 
 
