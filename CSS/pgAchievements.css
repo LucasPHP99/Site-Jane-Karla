@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-image:url(/imagens/janetiro.webp);
+}
+
+/* Header */
+header{
+    background-image: linear-gradient(to bottom, #00089e 80%, #04c40e 40%);
+    width: 100%;
+    padding: 50px;
+    opacity: 0.8; /* Opacidade inicial (50%) */
+    transition: opacity 0.3s ease-in-out; /* Transição suave para a opacidade */
+}
+
+header:hover {
+    opacity: 1; /* Opacidade de 100% ao passar o mouse */
+    transform: translateY(-10px); /* Move o header 10 pixels para cima */
+    transform: scale(1.01); /* Aumenta ligeiramente o tamanho */
+  }
+  
+.container-header{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+  
+.titulo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 60px;
+}
+
+.container-menu nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 60px;
+    opacity: 0.5; /* Opacidade inicial */
+    transition: opacity 0.3s ease-in-out; /* Transição suave para a opacidade */
+}
+  
+.container-menu nav a:hover {
+    opacity: 1; /* Opacidade de 100% ao passar o mouse */
+}
+/* Fim Header */
+
+/* Meio da pagina */
+.sobre {
+    background:#041103d5;
+    color: white;
+    height: 5300px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.medalha{
+    height: 400px;
+    width: 500px;
+    float: right;
+
+}
+
+/* Fim do meio da pagina */
+
+/* Footer */
+
+.final-site{
+    min-height: 27vh;
+    background-color: black;
+    color: #fff;
+    height: 150px;
+}
+
+.final-site h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+}
+
+.copyr{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 200;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding-bottom: 20px;
+}
