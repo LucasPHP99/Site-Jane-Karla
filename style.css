@@ -130,6 +130,18 @@ header:hover {
     .container {
       width: 90%;
     }
+
+    .instagram-main{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .youtube-main{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
   }
 
 
