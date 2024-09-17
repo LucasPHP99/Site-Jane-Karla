@@ -61,7 +61,7 @@ header:hover {
     margin-top: 200px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     padding: 30px;
 }
 
@@ -142,12 +142,10 @@ header:hover {
       margin-right: -150px;
     }
 
-    .instagram-main{
+    .instagram-main {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        width= 100px;
-        height= 100px;
     }
     
     #youtube-main{
@@ -176,6 +174,79 @@ header:hover {
         display: flex;
         justify-content: center; /* Centraliza os ícones horizontalmente */
         gap: 10px; /* Espaçamento entre os ícones */
+    }
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+    }
+    
+    .copyr{
+        display: flex;
+        background-color: black;
+        color: white;
+        width: 100%;
+        font-weight: 200;
+        font-size: 1.1rem;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+  }
+
+  @media (max-width: 768px) and (orientation: landscape) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-menu nav a {
+        margin-left: 100px;
+    }
+
+    .sobre {
+        height: 760px;
+    }
+
+    body {
+      font-size: 16px;
+      margin-right: -180px;
+    }
+
+    .instagram-main{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    #youtube-main{
+        display: flex;
+        justify-content: space-around;
+        margin-left: -10px;
+        margin-bottom: 50px;
+    }
+
+    /*footer */
+    .final-site{
+        min-height: 29vh;
+        background-color: black;
+        color: #fff;
+        height: 200px;
+    }
+    
+    .final-site h1{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo-container{
+        display: flex;
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+        gap: 5px; /* Espaçamento entre os ícones */
     }
     
     .logo{
